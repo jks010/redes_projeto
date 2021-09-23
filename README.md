@@ -1,17 +1,24 @@
 # redes_projeto
 
-Instalação 
+# Instalação 
 
-pip install PySimpleGUI
+ ```
+ pip install PySimpleGUI
+ ```
 
 
-Modo de uso
+# Modo de uso
 
-Inicie o server
+## Inicie o server
+ ```
   python server.py
- 
-Inicie o Client
-  Versão Terminal
-    python client.py
-  Versão GUI
-    python interface.py
+ ```
+## Inicie o Client
+  ### Versão Terminal
+ ```
+ python client.py
+ ```
+ ### Versão GUI
+  ```
+  python interface.py
+```
