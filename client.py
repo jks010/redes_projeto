@@ -35,8 +35,6 @@ class Client:
         input_thread = threading.Thread(target=self.input_handler,args=("continue",))
         input_thread.start()
         
-        #print(input_thread.is_alive())        
-        #print(stop)
     def handle_messages(self):
         flag=1 
         while flag:
@@ -46,7 +44,7 @@ class Client:
             except:
                 print("Até")
                 flag=0
-        #self.s.close()
+        
     
     def input_handler(self,arg):
         current_t = threading.currentThread()
