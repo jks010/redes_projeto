@@ -24,3 +24,5 @@
   ```
   python interface.py
 ```
+# Para sair digite : 
+ ## quit
