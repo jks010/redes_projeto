@@ -8,7 +8,7 @@ class Server:
     def start_server(self):
         self.s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         
-        host = socket.gethostbyname(socket.gethostname())
+        host  = '127.0.0.1'
         port = int(input('Digite a porta para conexão --> '))
 
         self.clients = []
